@@ -1,6 +1,6 @@
 #x,y={'x1':[3.5,3.69,3.44,3.43,4.34,4.42,2.37]},[18,15,18,16,15,14,24]    # y-hat vector still empty
      # bias and weight initialized at 0, learning rate to be specified by user
-x,y,Y={'x1':[1,2],'x2':[3,4],'x3':[5,6]},[8,9],[]
+x,y,Y={'x1':[1,2],'x2':[3,4],'x3':[5,6]},[8,9],[] # TEST DATA
 def SimpleLinRegLossCurve(x,y,Epoch,LR):
     leny=len(y)
     Y=[]
